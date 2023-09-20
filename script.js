@@ -9,7 +9,7 @@ class Palindrome{
 
         //check if parameter is a string
         if (typeof(str) != 'string'){
-            console.log("Enter strings only");
+            return "Enter strings only"
         } else{
 
         // convert the parameter to an array
@@ -43,7 +43,7 @@ const checker = new Palindrome;
 // const result = checker.checkPalindrome('09234 0124210');
 // const result = checker.checkPalindrome('abcd5dcba 1230321 09234 0124210');
 // const result = checker.checkPalindrome('A man, a plan, a canal – Panama');
-// const result = checker.checkPalindrome('123454321 6789 abdba');
+const result = checker.checkPalindrome('123454321 6789 abdba');
 // const result = checker.checkPalindrome('alpha');
 // const result = checker.checkPalindrome('peep poop pap');
 // const result = checker.checkPalindrome('peter and john');
